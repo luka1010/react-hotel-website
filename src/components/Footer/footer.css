@@ -1,0 +1,47 @@
+.footer {
+    background: #4d4d4d;
+    padding: 5vh;
+    text-align: center;
+    z-index: -2;
+  }
+  
+  .footer-logo {
+    max-height: 100px;
+    width: auto;
+  }
+  
+  .footer-links-div {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .footer-navlinks li {
+    list-style: none;
+    display: inline;
+    margin: 3vw;
+  }
+  
+  .footer-navlinks a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: Amasis;
+  }
+  
+  .footer-navlinks a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-icon {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .footer-icons li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+  }

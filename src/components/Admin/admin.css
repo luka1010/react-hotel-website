@@ -1,0 +1,82 @@
+.admin-activities-container{
+    margin-left: 20px;
+
+}
+
+.admin-activities-item{
+    margin: 20px 0;
+}
+
+.header-title-description {
+    display: flex;
+}
+
+.title-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-description span{
+    margin-left: 50px;
+}
+
+.title-description button{
+    margin-left: 50px;
+    width: 50px;
+    height: 20px;
+}
+
+.title-description h3 {
+    padding: 10px 20px;
+}
+
+.title-description p {
+    padding: 10px 30px;
+}
+
+.admin-header-img{
+    max-width: 400px;
+    height: auto;
+}
+
+.admin-extras{
+    padding: 5px 30px;
+}
+
+.admin-extras-list{
+    padding: 5px 0;
+}
+
+.admin-extras-ul {
+    list-style: none;
+}
+
+.extras-gallery{
+    display: flex;
+    flex-direction: row;
+}
+
+.admin-gallery-container{
+    max-height: 100px;
+}
+
+.admin-gallery-container img{
+    max-height: 100px;
+    margin-left: 10px;
+}
+
+.form{
+    padding: 10px 20px;
+}
+
+.add-title > textarea {
+    width: 200px;
+    height: 200px;
+    resize: none;
+}
+
+.admin-bg-img {
+    margin: 0 20px;
+    max-height: 100px;
+}
+

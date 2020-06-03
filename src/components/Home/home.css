@@ -1,0 +1,65 @@
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  height: auto;
+  width: 100%;
+}
+
+.header-banner {
+  float: left;
+  position: absolute;
+  margin-left: 12vw;
+
+  background-color: rgb(0, 0, 0, 0.4);
+  height: fit-content;
+  width: fit-content;
+  padding: 2vw;
+}
+
+.header-banner h1,
+h4 {
+  letter-spacing: 4px;
+  color: #ececec;
+  font-family: Amasis;
+  font-weight: normal;
+}
+
+.header-banner h1 {
+  font-size: 5vw;
+}
+
+.header-banner h4 {
+  font-size: 1vw;
+}
+
+.about{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #4d4d4d;
+}
+
+.about-title{
+    padding: 20px 14vw;
+    font-family: Amasis;
+}
+
+.about p {
+    font-family: Amasis;
+    font-size: larger;
+    padding: 0 14vw;
+    margin: 14px 0px;
+}
+
+.home-images-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .home-images-container img {
+    object-fit: cover;
+    width: 100%;
+  }

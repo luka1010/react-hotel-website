@@ -1,0 +1,157 @@
+.activities-container {
+  padding: 40px 0;
+  background-color: white;
+}
+
+.activities-item-left {
+  display: flex;
+  padding: 20px 0;
+}
+
+.activities-item-right {
+  display: flex;
+  padding: 20px 0;
+  background-color: #ececec;
+}
+
+.activities-description {
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.activities-img {
+  max-width: 647px;
+}
+
+.activities-description h1 {
+  font-size: 3.5vw;
+  color: #3b3b3b;
+  font-family: Amasis;
+}
+
+.activities-description p {
+  font-size: 1.2vw;
+  font-family: Amasis;
+  color: #3b3b3b;
+  padding: 0 4vw;
+}
+
+.details-link {
+  align-self: flex-end;
+  padding-right: 4vw;
+}
+
+.details-link a {
+  color: #3b3b3b;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  font-family: Amasis;
+  font-size: 1.2vw;
+  text-decoration: none;
+}
+
+.details-link a:hover {
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
+.details-icon {
+  position: relative;
+  top: 3px;
+}
+
+.featured-desc {
+  display: flex;
+  padding: 8vw 15vw;
+  background-color: #ececec;
+}
+
+.featured-title h6 {
+  font-size: 12px;
+  font-family: Amasis;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.featured-title h1 {
+  font-size: 80px;
+  font-family: Amasis;
+}
+
+.featured-text {
+  margin-left: 10vw;
+  margin-top: 5vw;
+  font-family: Amasis;
+  font-size: 20px;
+  color: #3b3b3b;
+}
+
+@media screen and (max-width: 800px) {
+  .featured-desc {
+    display: flex;
+    flex-direction: column;
+    background-color: #ececec;
+  }
+  .featured-title h1 {
+    font-size: 10vw;
+  }
+  .featured-text {
+    font-size: 15px;
+  }
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2.5%;
+  grid-auto-rows: 27%;
+  padding: 0 60px;
+  background-color: #ececec;
+  padding-bottom: 60px;
+}
+
+.gridimg {
+  max-width: 100%;
+}
+
+.gridtextcontainer {
+  padding: 10px 0;
+  padding-left: 20px;
+}
+
+.gridcontainer a {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+.gridcontainer a:hover {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+
+.gridtextcontainer h2,
+p {
+  font-family: Amasis;
+  padding-top: 10px;
+}
+
+.gridtextcontainer 
+p {
+  color: #3b3b3b;
+}
+
+.griddate {
+  display: flex;
+  justify-content: space-between;
+  font-family: Amasis;
+  margin-top: 10px;
+  color: #3b3b3b;
+
+}
+
+.griddate .details-link {
+  padding: 0;
+  justify-self: flex-end;
+}

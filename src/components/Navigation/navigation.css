@@ -1,0 +1,53 @@
+.my-navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4d4d4d;
+  z-index: 1;
+  align-items: center;
+
+
+  min-height: 10vh;
+  font-family: Amasis;
+}
+
+.my-navbar-logo {
+  max-height: 60px;
+  width: auto;
+}
+
+.my-navbar-ul {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.my-navbar-li {
+  list-style: none;
+}
+
+.my-navbar-ul a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.signout-button {
+  background-color: transparent;
+  color: #ececec;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Amasis;
+  text-transform: capitalize;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.signout-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
